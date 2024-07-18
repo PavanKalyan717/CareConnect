@@ -66,8 +66,9 @@ export const getPatient = async (userId: string) => {
         return parseStringify(patients.documents[0]);
     } catch (error) {
         console.error(
-            "An error occurred while retrieving the patient details:",
+            "An error occured while retrieving the patient details:",
             error
         );
     }
 };
+
